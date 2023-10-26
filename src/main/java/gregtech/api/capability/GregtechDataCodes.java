@@ -78,6 +78,7 @@ public class GregtechDataCodes {
     public static final int IS_FRONT_FACE_FREE = 554;
     public static final int MAINTENANCE_MULTIPLIER = 555;
     public static final int UPDATE_UPWARDS_FACING = 556;
+    public static final int UPDATE_FLIP = 557;
 
     // Item Bus Item Stack Auto Collapsing
     public static final int TOGGLE_COLLAPSE_ITEMS = 600;

@@ -514,4 +514,9 @@ public class MetaTileEntityLargeMiner extends MultiblockWithDisplayBase implemen
     protected boolean shouldShowVoidingModeButton() {
         return false;
     }
+
+    @Override
+    public boolean allowsExtendedFacing() {
+        return false;
+    }
 }

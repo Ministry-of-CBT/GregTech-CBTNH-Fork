@@ -1,3 +1,6 @@
+# Why?
+I fucking forked this fucking repository because i want to modify materials right away in GTCEu Base Code
+
 <p align="center"><img src="https://user-images.githubusercontent.com/37029404/233205606-a7bb352a-eb0c-4484-9fc8-820255b996a4.png" alt="Logo"></p>
 <h1 align="center">GregTech CE: Unofficial</h1>
 <p align="center"><i>A fork of GregTech Community Edition by the Gregtech CEu development team</i></p>
@@ -11,9 +14,9 @@
     <a href="https://github.com/GregTechCEu/GregTech/releases"><img src="https://img.shields.io/github/downloads/GregTechCEu/GregTech/total?sort=semver&logo=github&label=&style=for-the-badge&color=2d2d2d&labelColor=545454&logoColor=FFFFFF" alt="GitHub"></a>
 </h1>
 
-## Welcome to GregTech CE: Unofficial
+## Welcome to GregTech CE: Unofficial - CBT New Horizons Fork
 ### What is this?
-GregTech CE Unofficial, or **GTCEu**, is a Minecraft mod. The repository contains all the code and assets required to build and run that mod.
+GregTech CE Unofficial - CBT New Horizons Fork, or **GTCEu CBT:NH**, is a Minecraft mod. The repository contains all the code and assets required to build and run that mod.
 
 ### GregTech?
 Yes, you have probably heard this name before as it is quite known in the Minecraft modding community. GTCEu is an **indirect descendant** and **total rewrite** of _**GregTech**_.  It is **neither created nor maintained by GregoriusT** but was created with his knowledge and permission.

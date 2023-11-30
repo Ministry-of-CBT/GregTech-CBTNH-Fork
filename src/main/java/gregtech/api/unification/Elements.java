@@ -152,6 +152,60 @@ public class Elements {
     public static final Element Sp = add(1, 0, -1, null, "Space", "Sp", false);
     public static final Element Ma = add(1, 0, -1, null, "Magic", "Ma", false);
 
+    // TODO CBT:NH Elements
+    public static final Element Element_Susanium = add(121, 185, -1, null, "Susanium-306", "Ss", false);
+    public static final Element Element_Dylantrum = add(122, 187, -1, null, "Dylantrum-309", "Dy", false);
+    public static final Element Element_Agrastium = add(123, 190, -1, null, "Agrastium-313", "At", false);
+    public static final Element Element_Ruslyium = add(124, 194, -1, null, "Ruslyium-318", "Ry", false);
+    public static final Element Element_Schrabidium = add(126, 200, -1, null, "Schrabidium-326", "Sa", false);
+    public static final Element Element_Solinium = add(126, 201, -1, null, "Solinium-327", "Sa-327", true);
+    public static final Element Element_Seridium = add(127, 201, -1, null, "Veridium-328", "Ve", false);
+    public static final Element Element_Lunarium = add(128, 203, -1, null, "Lunarium-331", "Ln", false);
+    public static final Element Element_Etherium = add(129, 206, -1, null, "Etherium-335", "Et", false);
+    public static final Element Element_Xenynium = add(130, 209, -1, null, "Xenynium-339", "Xy", false);
+    public static final Element Element_Neptupitrium = add(131, 211, -1, null, "Neptupitrium-342", "Np", false);
+    public static final Element Element_Solimonium = add(132, 214, -1, null, "Solimonium-346", "Sm", false);
+    public static final Element Element_Aetherium = add(133, 217, -1, null, "Aetherium-350", "Ae", false);
+    public static final Element Element_Quasarium = add(134, 220, -1, null, "Quasarium-354", "Qs", false);
+    public static final Element Element_Laranium = add(135, 223, -1, null, "Laranium-358", "La", false);
+    public static final Element Element_Pyranium = add(136, 226, -1, null, "Pyranium-362", "Py", false);
+    public static final Element Element_Silisimmunium = add(137, 228, -1, null, "Silisimmunium-365", "Sls", false);
+    public static final Element Element_Ryneurassium = add(138, 231, -1, null, "Ryneurassium-369", "Ry", false);
+    public static final Element Element_Supractinium = add(139, 235, -1, null, "Supractinium-374", "Sc", true);
+    public static final Element Element_Puthanium = add(140, 238, -1, null, "Puthanium-378", "Ph", false);
+    public static final Element Element_Coslynium = add(141, 241, -1, null, "Coslynium-382", "Cy", false);
+    public static final Element Element_Yrattasium = add(142, 244, -1, null, "Yrattasium-386", "Ve", false);
+    public static final Element Element_Runevaline = add(143, 247, -1, null, "Runevaline-390", "Rv", false);
+    public static final Element Element_Neoveline392 = add(144, 248, -1, null, "Neoveline-392", "Nv-392", false);
+    public static final Element Element_Neoveline = add(144, 250, -1, null, "Neoveline-394", "Nv", false);
+    public static final Element Element_Cesarium = add(145, 254, -1, null, "Cesarium-399", "Ce", false);
+    public static final Element Element_Quannasarium = add(146, 257, -1, null, "Quannasarium-403", "Q", false);
+    public static final Element Element_Jadynomium = add(147, 260, -1, null, "Jadynomium-407", "Jd", false);
+    public static final Element Element_Jaumium = add(148, 264, -1, null, "Jaumium-412", "J", false);
+    public static final Element Element_Euronium = add(149, 267, -1, null, "Euronium-416", "Eur", false);
+    public static final Element Element_Dimosonium = add(150, 271, -1, null, "Dimosonium-421", "Dr", false);
+    public static final Element Element_Krassium = add(151, 274, -1, null, "Krassium-425", "Kr", false);
+    public static final Element Element_Dithermonium = add(152, 278, -1, null, "Dithermonium-430", "Ds", false);
+    public static final Element Element_Prassoppurium = add(153, 282, -1, null, "Prassoppurium-435", "Pp", false);
+    public static final Element Element_Sunatrium = add(154, 285, -1, null, "Sunatrium-439", "Su", false);
+    public static final Element Element_Bralyium = add(155, 289, -1, null, "Bralyium-444", "By", false);
+    public static final Element Element_Quintessium = add(156, 293, -1, null, "Quintessium-449", "Qt", false);
+    public static final Element Element_Zephyrion = add(157, 297, -1, null, "Zephyrion-454", "Zp", false);
+    public static final Element Element_Chronotite = add(158, 301, -1, null, "Chronotite-459", "Ct", false);
+    public static final Element Element_Luminarite = add(159, 304, -1, null, "Luminarite-463", "Lu", false);
+    public static final Element Element_Pyrocore = add(160, 308, -1, null, "Pyrocore-468", "Pc", false);
+    public static final Element Element_Spectresium = add(161, 313, -1, null, "Spectresium-474", "Sp", false);
+    public static final Element Element_Aquamimite = add(162, 317, -1, null, "Aquamimite-479", "Aq", false);
+    public static final Element Element_Terravium = add(163, 321, -1, null, "Terravium-484", "Tv", false);
+    public static final Element Element_Psilunarite = add(164, 325, -1, null, "Psilunarite-489", "Ps", false);
+    public static final Element Element_Nebulium = add(165, 329, -1, null, "Nebulium-495", "Nb", false);
+    public static final Element Element_Scytronium = add(166, 334, -1, null, "Scytronium-500", "Scy", false);
+    public static final Element Element_Modulatum = add(167, 338, -1, null, "Modulatum-505", "Mm", false);
+    public static final Element Element_Etharosium = add(168, 342, -1, null, "Etharosium-510", "Es", false);
+    public static final Element Element_Echotium = add(169, 347, -1, null, "Echotium-516", "Et", false);
+    public static final Element Element_Naquadasson = add(170, 330, -1, null, "Naquadasson-520", "Nq-520", true);
+
+
     // TODO Cosmic Neutronium, other Gregicality Elements
 
     @ZenMethod

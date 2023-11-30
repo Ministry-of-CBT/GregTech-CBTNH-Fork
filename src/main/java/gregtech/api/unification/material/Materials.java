@@ -75,9 +75,23 @@ public class Materials {
         HigherDegreeMaterials.register();
 
         /*
+         * Ranges 5000-5999
+         */
+        // CBTNHPack.register()
+
+
+        /*
          * Register info for cyclical references
          */
+
         MaterialFlagAddition.register();
+
+        /*
+         * Register info for cyclical references
+         */
+
+        // CBTNHFlags.register();
+
 
         /*
          * FOR ADDON DEVELOPERS:
@@ -759,4 +773,15 @@ public class Materials {
     public static Material BasalticMineralSand;
     public static Material HSSE;
     public static Material HSSS;
+
+    /*
+     * CBTNH Materials ================
+     *
+     *
+     *
+     * CBTNH Materials ================
+     */
+
+    // Elements
+    // Man, whatever an addon is too complicated for me, and besides i am stupid
 }

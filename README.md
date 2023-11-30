@@ -1,6 +1,8 @@
 # Why?
 I fucking forked this fucking repository because i want to modify materials right away in GTCEu Base Code and groovy and ct did not cut it for me so yeah i probably have a very suspicious java experience but i will try my best :trollface:
 
+Fork Development has begun, we will probably move all groovy scripts that register materials to this fork, also because i want to add some other stuff :trollface:
+
 <p align="center"><img src="https://user-images.githubusercontent.com/37029404/233205606-a7bb352a-eb0c-4484-9fc8-820255b996a4.png" alt="Logo"></p>
 <h1 align="center">GregTech CE: Unofficial</h1>
 <p align="center"><i>A fork of GregTech Community Edition by the Gregtech CEu development team</i></p>

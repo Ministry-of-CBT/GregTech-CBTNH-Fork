@@ -19,7 +19,7 @@ public class ElementMaterials {
 
     public static void register() {
         Actinium = new Material.Builder(1, gregtechId("actinium"))
-                .ingot().liquid(new FluidBuilder().temperature(1))
+                .ingot().liquid(new FluidBuilder().temperature(1500))
                 .plasma()
                 .color(0xC3D1FF).iconSet(METALLIC)
                 .element(Elements.Ac)
@@ -75,19 +75,19 @@ public class ElementMaterials {
                 .build();
 
         Astatine = new Material.Builder(7, gregtechId("astatine"))
-                .ingot().liquid(new FluidBuilder().temperature(1)).plasma()
+                .ingot().liquid(new FluidBuilder().temperature(573)).plasma()
                 .color(0x241A24)
                 .element(Elements.At)
                 .build();
 
         Barium = new Material.Builder(8, gregtechId("barium"))
-                .ingot().liquid(new FluidBuilder().temperature(1)).plasma()
+                .ingot().liquid(new FluidBuilder().temperature(1000)).plasma()
                 .color(0x83824C).iconSet(METALLIC)
                 .element(Elements.Ba)
                 .build();
 
         Berkelium = new Material.Builder(9, gregtechId("berkelium"))
-                .ingot().liquid(new FluidBuilder().temperature(1)).plasma()
+                .ingot().liquid(new FluidBuilder().temperature(1259)).plasma()
                 .color(0x645A88).iconSet(METALLIC)
                 .element(Elements.Bk)
                 .build();

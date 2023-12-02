@@ -75,9 +75,9 @@ public class Materials {
         HigherDegreeMaterials.register();
 
         /*
-         * Ranges 5000-5999
+         * Ranges 6000-6999
          */
-        // CBTNHPack.register()
+        CBTNHElements.register();
 
 
         /*
@@ -775,13 +775,155 @@ public class Materials {
     public static Material HSSS;
 
     /*
-     * CBTNH Materials ================
-     *
-     *
-     *
-     * CBTNH Materials ================
+     * CBTNH
      */
 
     // Elements
-    // Man, whatever an addon is too complicated for me, and besides i am stupid
+    // Man, whatever! setting up an addon is too complicated for me,
+    // and besides i have a doctorate degree in being an idiot
+
+    public static Material Susanium;
+    public static Material Dylantrum;
+    public static Material Agrastium;
+    public static Material Ruslyium;
+    public static Material Schrabidium;
+    public static Material Solinium;
+    public static Material Veridium;
+    public static Material Lunarium;
+    public static Material Etherium;
+    public static Material Xenynium;
+    public static Material Neptupitrium;
+    public static Material Solimonium;
+    public static Material Aetherium;
+    public static Material Quasarium;
+    public static Material Laranium;
+    public static Material Pyranium;
+    public static Material Silisimmunium;
+    public static Material Ryneurassium;
+    public static Material Supractinium;
+    public static Material Puthanium;
+    public static Material Coslynium;
+    public static Material Yrattasium;
+    public static Material Runevaline;
+    public static Material Neoveline392;
+    public static Material Neoveline;
+    public static Material Cesarium;
+    public static Material Quannasarium;
+    public static Material Jadynomium;
+    public static Material Jaumium;
+    public static Material Euronium;
+    public static Material Dimosonium;
+    public static Material Krassium;
+    public static Material Dithermonium;
+    public static Material Prassoppurium;
+    public static Material Sunatrium;
+    public static Material Bralyium;
+    public static Material Quintessium;
+    public static Material Zephyrion;
+    public static Material Chronotite;
+    public static Material Luminarite;
+    public static Material Pyrocore;
+    public static Material Spectresium;
+    public static Material Aquamimite;
+    public static Material Terravium;
+    public static Material Psilunarite;
+    public static Material Nebulium;
+    public static Material Scytronium;
+    public static Material Modulatum;
+    public static Material Etharosium;
+    public static Material Echotium;
+    public static Material Naquadasson;
+    public static Material Psychium;
+    public static Material Miasma;
+    public static Material Manyullyn;
+    public static Material Promenarium;
+    public static Material Rizzium;
+    public static Material Phlogiston;
+    public static Material Cringium;
+    public static Material Mixin;
+    public static Material Reimusexium;
+    public static Material Supersymmetrium;
+    public static Material Retardium;
+    public static Material Crappium;
+    public static Material Dementium;
+    public static Material Asylium;
+    public static Material Cummonium;
+    public static Material Sexium;
+    public static Material Digamma;
+    public static Material Hyposogen;
+    public static Material Dinesson;
+    public static Material Surranium;
+    public static Material Balilium;
+    public static Material Cripslanium;
+    public static Material Reaperium;
+    public static Material Soransantium;
+    public static Material Ceronium;
+    public static Material Sussonium;
+    public static Material Plossarinum;
+    public static Material Qurratanium;
+    public static Material Xynthasium;
+    public static Material Derantium;
+    public static Material Falshylium;
+    public static Material Affassium;
+    public static Material Birudium;
+    public static Material Dysansanium;
+    public static Material Defransasium;
+    public static Material Collurium;
+    public static Material Hypalissorum;
+    public static Material Cavirassanum;
+    public static Material Civaranum;
+    public static Material Enfensium;
+    public static Material Syracusium;
+    public static Material Ardite;
+    public static Material Byallurium;
+    public static Material Denestrium;
+    public static Material Granstatium;
+    public static Material Gropanium;
+    public static Material Hilennium;
+    public static Material Hypillanium;
+    public static Material Indarane;
+    public static Material Insanae;
+    public static Material Karisellinium;
+    public static Material Kaloyasine;
+    public static Material Lonnanium;
+    public static Material Maganate;
+    public static Material Napplynate;
+    public static Material Ongorolium;
+    public static Material Chansanate;
+    public static Material Qualassanium;
+    public static Material Ravenium;
+    public static Material Selannate;
+    public static Material Panorium;
+    public static Material Oklahomium;
+    public static Material Xyanthrozzium;
+    public static Material Zenaninum;
+    public static Material Fanlongossium;
+    public static Material Wallonium;
+    public static Material Yantherine;
+    public static Material Egeronium;
+    public static Material Eklynium;
+    public static Material Ginsonium;
+    public static Material Bunnanium;
+    public static Material Ossononium;
+    public static Material Iandisnomium;
+    public static Material Schrubblium;
+    public static Material Drakium;
+    public static Material Screretium;
+    public static Material Mikeroonium;
+    public static Material Trulinium;
+    public static Material Nrmotium;
+    public static Material Differentarium;
+    public static Material Ranstantum;
+    public static Material Elesttinium;
+    public static Material Tinduimagnium;
+    public static Material Alusxanirium;
+    public static Material Amagsmatmonite;
+    public static Material Gebmussmaton;
+    public static Material Brungrushunium;
+    public static Material Canstolstarium;
+    public static Material Danfihelate;
+    public static Material Nirdiagnate;
+    public static Material Magnate;
+    public static Material Granium;
+    public static Material Shagnium;
 }

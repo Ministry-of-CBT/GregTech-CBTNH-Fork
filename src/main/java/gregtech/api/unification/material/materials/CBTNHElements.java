@@ -104,6 +104,160 @@ public class CBTNHElements {
                 .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_SPRING, GENERATE_SPRING_SMALL)
                 .toolStats(new ToolProperty(20, 11, 2044, 6))
                 .build();
+        Aetherium = new Material.Builder(6012, gregtechId("aetherium"))
+                .element(Elements.ElementAetherium)
+                .ingot(6)
+                .iconSet(OPAL) // iconset
+                .color(0xA18BC3)
+                .toolStats(new ToolProperty(20, 14, 2532, 4))
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE)
+                .build();
+        Quasarium = new Material.Builder(6013, gregtechId("quasarium"))
+                .element(Elements.ElementQuasarium)
+                .ingot()
+                .iconSet(NETHERSTAR) // iconset
+                .color(0xFFDD03)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE)
+                .build();
+        Laranium = new Material.Builder(6014, gregtechId("laranium"))
+                .element(Elements.ElementLaranium)
+                .ingot()
+                .iconSet(CERTUS) // iconset
+                .color(0x9CB3A4)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE)
+                .build();
+        Pyranium = new Material.Builder(6015, gregtechId("pyranium"))
+                .element(Elements.ElementPyranium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xACBCDC)
+                .flags(GENERATE_PLATE, GENERATE_DENSE, GENERATE_FRAME)
+                .build();
+        Silisimmunium = new Material.Builder(6016, gregtechId("silisimmunium"))
+                .element(Elements.ElementSilisimmunium)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0xD2CA64)
+                .flags(GENERATE_PLATE, GENERATE_DENSE, GENERATE_FRAME)
+                .build();
+        Ryneurassium = new Material.Builder(6017, gregtechId("ryneurassium"))
+                .element(Elements.ElementRyneurassium)
+                .ingot()
+                .iconSet(BRIGHT) // iconset
+                .color(0xCA84B3)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE)
+                .build();
+        Supractinium = new Material.Builder(6018, gregtechId("supractinium"))
+                .element(Elements.ElementSupractinium)
+                .ingot()
+                .iconSet(DULL) // iconset
+                .color(0x2AC6B4)
+                .flags(EXPLOSIVE)
+                .build();
+        Puthanium = new Material.Builder(6019, gregtechId("puthanium"))
+                .element(Elements.ElementPuthanium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0x5CA444)
+                .build();
+        Coslynium = new Material.Builder(6020, gregtechId("coslynium"))
+                .element(Elements.ElementCoslynium)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0x23A9C1)
+                .build();
+        Yrattasium = new Material.Builder(6021, gregtechId("yrattasium"))
+                .element(Elements.ElementYrattasium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xF0A322)
+                .build();
+        Runevaline = new Material.Builder(6022, gregtechId("runevaline"))
+                .element(Elements.ElementRunevaline)
+                .ingot()
+                .iconSet(FINE) // iconset
+                .color(0xCA3BAA)
+                .build();
+        Neoveline = new Material.Builder(6023, gregtechId("neoveline"))
+                .element(Elements.ElementNeoveline)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0x44ACA8)
+                .flags(GENERATE_PLATE, GENERATE_DENSE, GENERATE_FRAME)
+                .build();
+        Cesarium = new Material.Builder(6024, gregtechId("cesarium"))
+                .element(Elements.ElementCesarium)
+                .ingot()
+                .iconSet(LIGNITE) // iconset
+                .color(0x4D3AC2)
+                .flags(GENERATE_PLATE, GENERATE_DENSE, GENERATE_FRAME)
+                .build();
+        Quannasarium = new Material.Builder(6025, gregtechId("quannasarium"))
+                .element(Elements.ElementQuannasarium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xAC1111)
+                .build();
+        Jadynomium = new Material.Builder(6026, gregtechId("jadynomium"))
+                .element(Elements.ElementJadynomium)
+                .ingot()
+                .iconSet(GEM_VERTICAL) // iconset
+                .color(0xA4D305)
+                .build();
+        Jaumium = new Material.Builder(6027, gregtechId("jaumium"))
+                .element(Elements.ElementJaumium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0x04D0A3)
+                .build();
+        Euronium = new Material.Builder(6028, gregtechId("euronium"))
+        		.element(Elements.ElementEuronium)
+                .ingot()
+                .iconSet(DULL) // iconset
+                .color(0xAC2201)
+                .build();
+        Dimosonium = new Material.Builder(6029, gregtechId("dimosonium"))
+                .element(Elements.ElementDimosonium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0x04D0A3)
+                .build();
+        Krassium = new Material.Builder(6030, gregtechId("krassium"))
+                .element(Elements.ElementKrassium)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0xC2A943)
+                .build();
+        Dithermonium = new Material.Builder(6031, gregtechId("dithermonium"))
+                .element(Elements.ElementDithermonium)
+                .ingot()
+                .iconSet(GEM_VERTICAL) // iconset
+                .color(0x944C3A)
+                .build();
+        Prassoppurium = new Material.Builder(6032, gregtechId("prassoppurium"))
+                .element(Elements.ElementPrassoppurium)
+                .ingot()
+                .iconSet(GEM_HORIZONTAL) // iconset
+                .color(0x7CBBA3)
+                .build();
+        Sunatrium = new Material.Builder(6033, gregtechId("sunatrium"))
+                .element(Elements.ElementSunatrium)
+                .ingot()
+                .iconSet(LIGNITE) // iconset
+                .color(0xAC3300)
+                .build();
+        Bralyium = new Material.Builder(6034, gregtechId("bralyium"))
+                .element(Elements.ElementBralyium)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0xC21190)
+                .build();
+        Quintessium = new Material.Builder(6035, gregtechId("quintessium"))
+                .element(Elements.ElementQuintessium)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0x74C833)
+                .build();
     }
 }
 

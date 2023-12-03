@@ -258,6 +258,25 @@ public class CBTNHElements {
                 .iconSet(METALLIC) // iconset
                 .color(0x74C833)
                 .build();
+        Zephyrion = new Material.Builder(6036, gregtechId("zephyrion"))
+                .element(Elements.ElementZephyrion)
+                .ingot()
+                .iconSet(SHINY) // iconset
+                .color(0x68CA73)
+                .build();
+        Chronotite = new Material.Builder(6037, gregtechId("chronotite"))
+                .element(Elements.ElementChronotite)
+                .ingot()
+                .iconSet(SHINY) // iconset
+                .color(0xACD023)
+                .build();
+        Luminarite = new Material.Builder(6038, gregtechId("luminarite"))
+                .element(Elements.ElementLuminarite)
+                .ingot()
+                .iconSet(SHINY) // iconset
+                .color(0xDCAA40)
+                .build();
+
     }
 }
 

@@ -44,7 +44,11 @@ public class BlockMetalCasing extends VariantBlock<BlockMetalCasing.MetalCasingT
         COKE_BRICKS("coke_bricks", 1),
         PTFE_INERT_CASING("ptfe_inert", 0),
         HSSE_STURDY("hsse_sturdy", 3),
-        PALLADIUM_SUBSTATION("palladium_substation", 3);
+        PALLADIUM_SUBSTATION("palladium_substation", 3),
+        ELEMENTAL_CASING("elemental_casing", 4), //new addition
+        HIGH_PERFORMANCE_SUPERCAUSAL_CASING("high_performance_supercausal_casing", 4), //new addition
+        QUANTUM_STABLIZER_CASING("quantum_stablizer_casing", 4), //new addition
+        THE_ULTIMATE_FUCKER("the_ultimate_fucker", 4); //new addition
 
         private final String name;
         private final int harvestLevel;

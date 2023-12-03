@@ -718,6 +718,10 @@ public class MachineRecipeLoader {
                 .outputs(METAL_CASING.getItemVariant(MetalCasingType.PALLADIUM_SUBSTATION,
                         ConfigHolder.recipes.casingsPerCraft))
                 .duration(50).buildAndRegister();
+        ASSEMBLER_RECIPES.recipeBuilder().EUt(16).input(plate, Schrabidium, 6).input(frameGt, Schrabidium).circuitMeta(6)
+                .outputs(METAL_CASING.getItemVariant(MetalCasingType.ELEMENTAL_CASING,
+                        ConfigHolder.recipes.casingsPerCraft))
+                .duration(50).buildAndRegister();
 
         RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder().EUt(16)
                 .inputs(MetaBlocks.METAL_CASING.getItemVariant(MetalCasingType.STEEL_SOLID))

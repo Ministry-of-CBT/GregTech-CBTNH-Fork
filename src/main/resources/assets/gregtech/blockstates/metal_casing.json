@@ -64,6 +64,26 @@
         "textures": {
           "all": "gregtech:blocks/casings/solid/machine_casing_palladium_substation"
         }
+      },
+      "elemental_casing": {
+        "textures": {
+          "all": "gregtech:blocks/casings/solid/machine_casing_elemental"
+        }
+      },
+      "high_performance_supercausal_casing": {
+        "textures": {
+          "all": "gregtech:blocks/casings/solid/machine_casing_high_performance_supercausal"
+        }
+      },
+      "quantum_stablizer_casing": {
+        "textures": {
+          "all": "gregtech:blocks/casings/solid/machine_casing_quantum_stablizer"
+        }
+      },
+      "the_ultimate_fucker": {
+        "textures": {
+          "all": "gregtech:blocks/casings/solid/machine_casing_the_ultimate_fucker"
+        }
       }
     }
   }

@@ -131,6 +131,10 @@ public class MetaTileEntityLoader {
                 MetaBlocks.METAL_CASING.getItemVariant(PALLADIUM_SUBSTATION, ConfigHolder.recipes.casingsPerCraft),
                 "PhP", "PFP", "PwP", 'P', new UnificationEntry(OrePrefix.plate, Materials.Palladium), 'F',
                 new UnificationEntry(OrePrefix.frameGt, Materials.Iridium));
+        ModHandler.addShapedRecipe(true, "casing_elemental",
+                MetaBlocks.METAL_CASING.getItemVariant(ELEMENTAL_CASING, ConfigHolder.recipes.casingsPerCraft),
+                "PhP", "PFP", "PwP", 'P', new UnificationEntry(OrePrefix.plate, Materials.Schrabidium), 'F',
+                new UnificationEntry(OrePrefix.frameGt, Materials.Schrabidium));
 
         ModHandler.addShapedRecipe(true, "casing_steel_turbine_casing",
                 MetaBlocks.TURBINE_CASING.getItemVariant(STEEL_TURBINE_CASING, ConfigHolder.recipes.casingsPerCraft),

@@ -174,7 +174,7 @@ public class Elements {
     public static final Element ElementSupractinium = add(139, 235, -1, null, "Supractinium-374", "Sc", true);
     public static final Element ElementPuthanium = add(140, 238, -1, null, "Puthanium-378", "Ph", false);
     public static final Element ElementCoslynium = add(141, 241, -1, null, "Coslynium-382", "Cy", false);
-    public static final Element ElementYrattasium = add(142, 244, -1, null, "Yrattasium-386", "Ve", false);
+    public static final Element ElementYrattasium = add(142, 244, -1, null, "Yrattasium-386", "Yr", false);
     public static final Element ElementRunevaline = add(143, 247, -1, null, "Runevaline-390", "Rv", false);
     public static final Element ElementNeoveline392 = add(144, 248, -1, null, "Neoveline-392", "Nv-392", false);
     public static final Element ElementNeoveline = add(144, 250, -1, null, "Neoveline-394", "Nv", false);

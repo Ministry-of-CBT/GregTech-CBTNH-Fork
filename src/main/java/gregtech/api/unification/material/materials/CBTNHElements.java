@@ -15,7 +15,157 @@ import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.util.GTUtility.gregtechId;
+/*
+New Elements List
 
+Susanium
+Dylantrum
+Agrastium
+Ruslyium
+Trinium
+Schrabidium
+Solinium
+Veridium
+Lunarium
+Etherium
+Xenynium
+Neptupitrium
+Solimonium
+Aetherium
+Quasarium
+Laranium
+Pyranium
+Silisimmunium
+Ryneurassium
+Supractinium
+Puthanium
+Coslynium
+Yrattasium
+Runevaline
+Neoveline-392
+Neoveline
+Cesarium
+Quannasarium
+Jadynomium
+Jaumium
+Euronium
+Dimosonium
+Krassium
+Dithermonium
+Prassoppurium
+Sunatrium
+Bralyium
+Quintessium
+Zephyrion
+Chronotite
+Luminarite
+Pyrocore
+Spectresium
+Aquamimite
+Terravium
+Psilunarite
+Nebulium
+Scytronium
+Modulatum
+Etharosium
+Echotium
+Naquadasson
+Naquadah
+Psychium
+Miasma
+Manyullyn
+Promenarium
+Rizzium
+Phlogiston
+Cringium
+Mixin
+Reimusexium
+Supersymmetrium
+Retardium
+Crappium
+Dementium
+Asylium
+Cummonium
+Sexium
+Digamma
+Hyposogen
+Dinesson
+Surranium
+Balilium
+Cripslanium
+Reaperium
+Soransantium
+Ceronium
+Sussonium
+Plossarinum
+Qurratanium
+Xynthasium
+Derantium
+Falshylium
+Affassium
+Birudium
+Dysansanium
+Defransasium
+Collurium
+Hypalissorum
+Cavirassanum
+Civaranum
+Enfensium
+Syracusium
+Ardite
+Byallurium
+Denestrium
+Granstatium
+Gropanium
+Hilennium
+Hypillanium
+Indarane
+Insanae
+Karisellinium
+Kaloyasine
+Lonnanium
+Maganate
+Napplynate
+Ongorolium
+Chansanate
+Qualassanium
+Ravenium
+Selannate
+Panorium
+Oklahomium
+Xyanthrozzium
+Zenaninum
+Fanlongossium
+Wallonium
+Yantherine
+Egeronium
+Eklynium
+Ginsonium
+Bunnanium
+Ossononium
+Iandisnomium
+Schrubblium
+Drakium
+Screretium
+Mikeroonium
+Trulinium
+Nrmotium
+Differentarium
+Ranstantum
+Elesttinium
+Tinduimagnium
+Alusxanirium
+Amagsmatmonite
+Gebmussmaton
+Brungrushunium
+Canstolstarium
+Danfihelate
+Nirdiagnate
+Magnate
+Granium
+Shagnium
+
+        **/
 public class CBTNHElements {
     public static void register() {
         //here
@@ -282,7 +432,24 @@ public class CBTNHElements {
                 .iconSet(SHINY) // iconset
                 .color(0xDCAA40)
                 .build();
-
+        Pyrocore = new Material.Builder(6039, gregtechId("pyrocore"))
+                .element(Elements.ElementPyrocore)
+                .ingot()
+                .iconSet(SHINY) // iconset
+                .color(0xFA8624)
+                .build();
+        Spectresium = new Material.Builder(6040, gregtechId("spectresium"))
+                .element(Elements.ElementSpectresium)
+                .ingot()
+                .iconSet(BRIGHT) // iconset
+                .color(0xAC399C)
+                .build();
+        Aquamimite = new Material.Builder(6041, gregtechId("aquaminite"))
+                .element(Elements.ElementAquamimite)
+                .ingot()
+                .iconSet(BRIGHT) // iconset
+                .color(0xAC399C)
+                .build();
     }
 }
 

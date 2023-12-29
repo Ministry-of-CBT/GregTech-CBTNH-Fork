@@ -34,6 +34,7 @@ dependencies {
     implementation rfg.deobf("curse.maven:ctm-267602:2915363") // CTM 1.0.2.31
     implementation("com.cleanroommc:groovyscript:0.7.1") { transitive = false }
     implementation rfg.deobf("curse.maven:ae2-extended-life-570458:4402048") // AE2UEL 0.55.6
+    implementation rfg.deobf("curse.maven:hbm-ntm-bs-edition-932766:4837535") // HBM NTM Bullshit Edition
 
     compileOnlyApi rfg.deobf("curse.maven:opencomputers-223008:4526246") // OpenComputers 1.8.0+9833087
     compileOnlyApi "curse.maven:journeymap-32274:2916002" // Journeymap 5.7.1

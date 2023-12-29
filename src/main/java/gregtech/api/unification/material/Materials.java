@@ -79,6 +79,15 @@ public class Materials {
          */
         CBTNHElements.register();
 
+        /*
+         * Ranges 7000-7999
+         */
+        CBTNHAntiElements.register();
+
+        /*
+         * Ranges 8000-9999
+         */
+        CBTNHAlloys.register();
 
         /*
          * Register info for cyclical references
@@ -926,4 +935,134 @@ public class Materials {
     public static Material Magnate;
     public static Material Granium;
     public static Material Shagnium;
+
+    // AntiElements Placeholder
+    public static Material Antimatter;
+    // AntiElements
+    public static Material AntiActinium;
+    public static Material AntiAluminium;
+    public static Material AntiAmericium;
+    public static Material AntiAntimony;
+    public static Material AntiArgon;
+    public static Material AntiArsenic;
+    public static Material AntiAstatine;
+    public static Material AntiBarium;
+    public static Material AntiBerkelium;
+    public static Material AntiBeryllium;
+    public static Material AntiBismuth;
+    public static Material AntiBohrium;
+    public static Material AntiBoron;
+    public static Material AntiBromine;
+    public static Material AntiCaesium;
+    public static Material AntiCalcium;
+    public static Material AntiCalifornium;
+    public static Material AntiCarbon;
+    public static Material AntiCadmium;
+    public static Material AntiCerium;
+    public static Material AntiChlorine;
+    public static Material AntiChrome;
+    public static Material AntiCobalt;
+    public static Material AntiCopernicium;
+    public static Material AntiCopper;
+    public static Material AntiCurium;
+    public static Material AntiDarmstadtium;
+    public static Material AntiDeuterium;
+    public static Material AntiDubnium;
+    public static Material AntiDysprosium;
+    public static Material AntiEinsteinium;
+    public static Material AntiErbium;
+    public static Material AntiEuropium;
+    public static Material AntiFermium;
+    public static Material AntiFlerovium;
+    public static Material AntiFluorine;
+    public static Material AntiFrancium;
+    public static Material AntiGadolinium;
+    public static Material AntiGallium;
+    public static Material AntiGermanium;
+    public static Material AntiGold;
+    public static Material AntiHafnium;
+    public static Material AntiHassium;
+    public static Material AntiHolmium;
+    public static Material AntiHydrogen;
+    public static Material AntiHelium;
+    public static Material AntiHelium3;
+    public static Material AntiIndium;
+    public static Material AntiIodine;
+    public static Material AntiIridium;
+    public static Material AntiIron;
+    public static Material AntiKrypton;
+    public static Material AntiLanthanum;
+    public static Material AntiLawrencium;
+    public static Material AntiLead;
+    public static Material AntiLithium;
+    public static Material AntiLivermorium;
+    public static Material AntiLutetium;
+    public static Material AntiMagnesium;
+    public static Material AntiMendelevium;
+    public static Material AntiManganese;
+    public static Material AntiMeitnerium;
+    public static Material AntiMercury;
+    public static Material AntiMolybdenum;
+    public static Material AntiMoscovium;
+    public static Material AntiNeodymium;
+    public static Material AntiNeon;
+    public static Material AntiNeptunium;
+    public static Material AntiNickel;
+    public static Material AntiNihonium;
+    public static Material AntiNiobium;
+    public static Material AntiNitrogen;
+    public static Material AntiNobelium;
+    public static Material AntiOganesson;
+    public static Material AntiOsmium;
+    public static Material AntiOxygen;
+    public static Material AntiPalladium;
+    public static Material AntiPhosphorus;
+    public static Material AntiPolonium;
+    public static Material AntiPlatinum;
+    public static Material AntiPlutonium239;
+    public static Material AntiPlutonium241;
+    public static Material AntiPotassium;
+    public static Material AntiPraseodymium;
+    public static Material AntiPromethium;
+    public static Material AntiProtactinium;
+    public static Material AntiRadon;
+    public static Material AntiRadium;
+    public static Material AntiRhenium;
+    public static Material AntiRhodium;
+    public static Material AntiRoentgenium;
+    public static Material AntiRubidium;
+    public static Material AntiRuthenium;
+    public static Material AntiRutherfordium;
+    public static Material AntiSamarium;
+    public static Material AntiScandium;
+    public static Material AntiSeaborgium;
+    public static Material AntiSelenium;
+    public static Material AntiSilicon;
+    public static Material AntiSilver;
+    public static Material AntiSodium;
+    public static Material AntiStrontium;
+    public static Material AntiSulfur;
+    public static Material AntiTantalum;
+    public static Material AntiTechnetium;
+    public static Material AntiTellurium;
+    public static Material AntiTennessine;
+    public static Material AntiTerbium;
+    public static Material AntiThorium;
+    public static Material AntiThallium;
+    public static Material AntiThulium;
+    public static Material AntiTin;
+    public static Material AntiTitanium;
+    public static Material AntiTritium;
+    public static Material AntiTungsten;
+    public static Material AntiUranium238;
+    public static Material AntiUranium235;
+    public static Material AntiVanadium;
+    public static Material AntiXenon;
+    public static Material AntiYtterbium;
+    public static Material AntiYttrium;
+    public static Material AntiZinc;
+    public static Material AntiZirconium;
+    // CBTNH Alloys
+    public static Material AntiPolytetrafluoroetylene;
+
 }

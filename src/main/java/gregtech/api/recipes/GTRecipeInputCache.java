@@ -32,7 +32,7 @@ public class GTRecipeInputCache {
 
     public static void enableCache() {
         if (!isCacheEnabled()) {
-            INSTANCES = new ObjectOpenHashSet<>(EXPECTED_CACHE_SIZE, 1);
+            INSTANCES = new ObjectOpenHashSet<>(EXPECTED_CACHE_SIZE, 0.75f);
             if (ConfigHolder.misc.debug || GTValues.isDeobfEnvironment())
                 GTLog.logger.info("GTRecipeInput cache enabled");
         }

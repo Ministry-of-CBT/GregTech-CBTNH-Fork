@@ -14,6 +14,7 @@ import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.util.GTUtility.gregtechId;
+import net.minecraftforge.fml.common.Loader;
 
 public class CBTNHAlloys {
     public static void register() {
@@ -25,5 +26,8 @@ public class CBTNHAlloys {
                 .components(AntiCarbon, 2, AntiFluorine, 4)
                 .fluidPipeProperties(600, 100, true, true, false, false)
                 .build();
+        if (Loader.isModLoaded(GTValues.MODID_HBM)) {
+            // HBM = new Material.Builder(8000, gregtechId(""));
+        }
     }
 }

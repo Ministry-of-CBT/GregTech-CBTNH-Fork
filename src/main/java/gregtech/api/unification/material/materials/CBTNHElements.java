@@ -1,171 +1,21 @@
 package gregtech.api.unification.material.materials;
 
-import gregtech.api.GTValues;
+// import gregtech.api.GTValues;
 import gregtech.api.fluids.FluidBuilder;
-import gregtech.api.fluids.FluidState;
-import gregtech.api.fluids.attribute.FluidAttributes;
-import gregtech.api.fluids.store.FluidStorageKeys;
+// import gregtech.api.fluids.FluidState;
+// import gregtech.api.fluids.attribute.FluidAttributes;
+// import gregtech.api.fluids.store.FluidStorageKeys;
 import gregtech.api.unification.Elements;
 import gregtech.api.unification.material.Material;
-import gregtech.api.unification.material.properties.BlastProperty.GasTier;
-import gregtech.api.unification.material.properties.PropertyKey;
+// import gregtech.api.unification.material.properties.BlastProperty.GasTier;
+// import gregtech.api.unification.material.properties.PropertyKey;
 import gregtech.api.unification.material.properties.ToolProperty;
 
 import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.util.GTUtility.gregtechId;
-/*
-New Elements List
-
-Susanium
-Dylantrum
-Agrastium
-Ruslyium
-Trinium
-Schrabidium
-Solinium
-Veridium
-Lunarium
-Etherium
-Xenynium
-Neptupitrium
-Solimonium
-Aetherium
-Quasarium
-Laranium
-Pyranium
-Silisimmunium
-Ryneurassium
-Supractinium
-Puthanium
-Coslynium
-Yrattasium
-Runevaline
-Neoveline-392
-Neoveline
-Cesarium
-Quannasarium
-Jadynomium
-Jaumium
-Euronium
-Dimosonium
-Krassium
-Dithermonium
-Prassoppurium
-Sunatrium
-Bralyium
-Quintessium
-Zephyrion
-Chronotite
-Luminarite
-Pyrocore
-Spectresium
-Aquamimite
-Terravium
-Psilunarite
-Nebulium
-Scytronium
-Modulatum
-Etharosium
-Echotium
-Naquadasson
-Naquadah
-Psychium
-Miasma
-Manyullyn
-Promenarium
-Rizzium
-Phlogiston
-Cringium
-Mixin
-Reimusexium
-Supersymmetrium
-Retardium
-Crappium
-Dementium
-Asylium
-Cummonium
-Sexium
-Digamma
-Hyposogen
-Dinesson
-Surranium
-Balilium
-Cripslanium
-Reaperium
-Soransantium
-Ceronium
-Sussonium
-Plossarinum
-Qurratanium
-Xynthasium
-Derantium
-Falshylium
-Affassium
-Birudium
-Dysansanium
-Defransasium
-Collurium
-Hypalissorum
-Cavirassanum
-Civaranum
-Enfensium
-Syracusium
-Ardite
-Byallurium
-Denestrium
-Granstatium
-Gropanium
-Hilennium
-Hypillanium
-Indarane
-Insanae
-Karisellinium
-Kaloyasine
-Lonnanium
-Maganate
-Napplynate
-Ongorolium
-Chansanate
-Qualassanium
-Ravenium
-Selannate
-Panorium
-Oklahomium
-Xyanthrozzium
-Zenaninum
-Fanlongossium
-Wallonium
-Yantherine
-Egeronium
-Eklynium
-Ginsonium
-Bunnanium
-Ossononium
-Iandisnomium
-Schrubblium
-Drakium
-Screretium
-Mikeroonium
-Trulinium
-Nrmotium
-Differentarium
-Ranstantum
-Elesttinium
-Tinduimagnium
-Alusxanirium
-Amagsmatmonite
-Gebmussmaton
-Brungrushunium
-Canstolstarium
-Danfihelate
-Nirdiagnate
-Magnate
-Granium
-Shagnium
-
-        **/
+// CBTNH Elements
 public class CBTNHElements {
     public static void register() {
         //here
@@ -449,6 +299,68 @@ public class CBTNHElements {
                 .ingot()
                 .iconSet(BRIGHT) // iconset
                 .color(0xAC399C)
+                .build();
+
+        Terravium = new Material.Builder(6042, gregtechId("terravium"))
+                .element(Elements.ElementTerravium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0x04D0A3)
+                .build();
+
+        Psilunarite = new Material.Builder(6043, gregtechId("psilunarite"))
+                .element(Elements.ElementPsilunarite)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0x5BC0A3)
+                .build();
+
+        Nebulium = new Material.Builder(6044, gregtechId("nebulium"))
+                .element(Elements.ElementNebulium)
+                .ingot()
+                .iconSet(METALLIC) // iconset
+                .color(0x666B4C)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE)
+                .build();
+
+        Scytronium = new Material.Builder(6045, gregtechId("scytronium"))
+                .element(Elements.ElementScytronium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xB7C03A)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE)
+                .build();
+
+        Modulatum = new Material.Builder(6046, gregtechId("modulatum"))
+                .element(Elements.ElementModulatum)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xAC9333)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE, GENERATE_ROTOR, GENERATE_RING, GENERATE_SMALL_GEAR, GENERATE_SPRING, GENERATE_SPRING_SMALL)
+                .build();
+
+        Etharosium = new Material.Builder(6047, gregtechId("etharosium"))
+                .element(Elements.ElementEtharosium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xAC0444)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE, GENERATE_ROTOR, GENERATE_RING, GENERATE_SMALL_GEAR, GENERATE_SPRING, GENERATE_SPRING_SMALL)
+                .build();
+
+        Echotium = new Material.Builder(6048, gregtechId("echotium"))
+                .element(Elements.ElementEchotium)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0x99A4BC)
+                .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD, GENERATE_FOIL, GENERATE_FINE_WIRE, GENERATE_ROUND, GENERATE_DENSE, GENERATE_ROTOR, GENERATE_RING, GENERATE_SMALL_GEAR, GENERATE_SPRING, GENERATE_SPRING_SMALL)
+                .cableProperties(2097152, 2, 4, false) // add cables
+                .build();
+
+        Naquadasson = new Material.Builder(6049, gregtechId("naquadasson"))
+                .element(Elements.ElementNaquadasson)
+                .ingot()
+                .iconSet(ROUGH) // iconset
+                .color(0xE3A94B)
                 .build();
     }
 }

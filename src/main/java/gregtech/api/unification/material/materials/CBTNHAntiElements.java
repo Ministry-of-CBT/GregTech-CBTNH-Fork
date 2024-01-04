@@ -2,10 +2,7 @@ package gregtech.api.unification.material.materials;
 
 import gregtech.api.GTValues;
 import gregtech.api.fluids.FluidBuilder;
-import gregtech.api.fluids.FluidState;
-import gregtech.api.fluids.attribute.FluidAttributes;
 import gregtech.api.fluids.store.FluidStorageKeys;
-import gregtech.api.unification.Element;
 import gregtech.api.unification.Elements;
 import gregtech.api.unification.material.Material;
 import gregtech.api.unification.material.properties.BlastProperty.GasTier;
@@ -22,7 +19,6 @@ public class CBTNHAntiElements {
     public static void register() {
         Antimatter = new Material.Builder(7000, gregtechId("antimatter")) // Placeholder for Antielements
                 .element(Elements.ElementAntimatter)
-                .ingot()
                 .color(0x000000).iconSet(ANTIMATTER)
                 .build();
 

@@ -425,6 +425,9 @@ public class Elements {
     public static final Element AntiLv = add(116, 177, -1, null, "Anti-Livermorium", "-Lv", false);
     public static final Element AntiTs = add(117, 177, -1, null, "Anti-Tennessine", "-Ts", false);
     public static final Element AntiOg = add(118, 176, -1, null, "Anti-Oganesson", "-Og", false);
+    // Greek Letters Elements
+    public static final Element OmegaC = add(1, 0, -1, null, "Omega", "Ω", false);
+    public static final Element OmegaS = add(1, 0, -1, null, "Omega", "ω", false);
 
 
     @ZenMethod

@@ -90,6 +90,12 @@ public class Materials {
         CBTNHAlloys.register();
 
         /*
+         * Miscellaneous
+         */
+
+        CBTNHMiscElements.register();
+
+        /*
          * Register info for cyclical references
          */
 
@@ -1064,5 +1070,10 @@ public class Materials {
     public static Material AntiZirconium;
     // CBTNH Alloys
     public static Material AntiPolytetrafluoroetylene;
+    // CBTNH Misc
+    public static Material OmegaMiscC;
+    public static Material OmegaMiscS;
+    public static Material PsiMiscC;
+    public static Material PsiMiscS;
 
 }

@@ -3,8 +3,8 @@ I fucking forked this fucking repository because i want to modify materials righ
 
 Fork Development has begun, we will probably move all groovy scripts that register materials to this fork, also because i want to add some other stuff :trollface:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/37029404/233205606-a7bb352a-eb0c-4484-9fc8-820255b996a4.png" alt="Logo"></p>
-<h1 align="center">GregTech CE: Unofficial</h1>
+<p align="center"><img src="https://github.com/Ministry-of-CBT/GregTech-CBTNH-Fork/assets/141803157/6201215f-3072-4aae-8d71-fa7308680f66" alt="Logo"></p>
+<h1 align="center">GregTech CEu [CBT:NH]</h1>
 <p align="center"><i>A fork of GregTech Community Edition by the Gregtech CEu development team</i></p>
 <h1 align="center">
     <a href="https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial"><img src="https://img.shields.io/badge/Available%20for-MC%201.12.2%20-informational?style=for-the-badge" alt="Supported Versions"></a>
@@ -39,6 +39,10 @@ All of which are powered by GTCEu's own power systems, featuring generators from
 * It is a reminder that the implementation and work are solely provided by the community.
 
 Of course, this does not mean that everyone can add whatever content they want.  But it does mean that the primary maintainers want to listen to the community and take suggestions and ideas to heart when planning or working on any projects.
+
+### CBT:NH?
+**CBT:NH** is a necessary part of this name.
+* This is a fork of GregTech CEu designed for Project CBT: New Horizons
 
 ### Project Goal
 To bring preferred GregTech concepts and ideas from GT (Minecraft 1.7.10 versions and earlier) to Minecraft 1.12, targetting a feature-rich, UX-friendly and comprehensive play-through while streamlining and eliminating bloat and make-work details.
